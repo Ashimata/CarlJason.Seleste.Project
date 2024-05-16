@@ -506,16 +506,21 @@ header {
 
 .banner {
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     display: flex;
 }
 
-.bannernike {
+.bannerimg {
     display: flex;
 }
 
 .bannernike img {
-    width: 85%;
+    width: 100%;
+    height: 550px; 
+}
+
+.bannernike1 img {
+    width: 100%;
     height: 550px; 
 }
 
@@ -553,12 +558,12 @@ header {
     font-family: 'lexend';
     margin: 10px 0 0 0;
     cursor: pointer;
+    transition: .4s ease-in-out; 
 }
 
 .nikedescription button:hover {
     background: transparent;
     color: black;
-    transition: .4s;
 }
 
 
@@ -611,12 +616,13 @@ header {
     font-family: 'lexend';
     margin: 12px 0 0 0;
     cursor: pointer;
+    transition: .4s ease-in-out;
 }
 
 .earbuds button:hover {
     background: black;
     color: white;
-    transition: .4s;
+
 }
 
 .iphone {
@@ -655,12 +661,12 @@ header {
     font-family: 'lexend';
     margin: 12px 0 0 0;
     cursor: pointer;
+    transition: .4s ease-in-out;
 }
 
 .iphone button:hover {
     background: black;
     color: white;
-    transition: .4s;
 }
 
 .deals {
@@ -7890,278 +7896,6 @@ header {
       }
 
 
-
-      
-
-
-
-
-
-
-
-
-
-
-
-      
-
-      
-
-
-
-
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .content-boxes {
-        box-shadow: none;
-        box-sizing: border-box;
-        color: rgb(108, 108, 116);
-        display: flex;
-        flex-wrap: wrap;
-        font-family: Figtree;
-        font-size: 17px;
-        font-weight: 400;
-        height: 378px;
-        justify-content: flex-start;
-        line-height: 28px;
-        margin-left: 85px;
-        margin-right: -15px;
-        margin-top: 0px;
-        outline-color: rgb(108, 108, 116);
-        outline-style: none;
-        outline-width: 0px;
-        text-align: start;
-        text-size-adjust: 100%;
-        unicode-bidi: isolate;
-        width: 720px;
-        word-break: break-word;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
-
-    .content-boxes .box1
-     {
-        align-items: flex-start;
-        box-shadow: none;
-        box-sizing: border-box;
-        color: rgb(108, 108, 116);
-        display: flex;
-        flex-basis: auto;
-        flex-direction: column;
-        flex-grow: 0;
-        flex-shrink: 0;
-        font-family: Figtree;
-        font-size: 17px;
-        font-weight: 400;
-        height: 174px;
-        justify-content: center;
-        line-height: 28px;
-        margin-top: 15px;
-        max-width: 100%;
-        outline-color: rgb(108, 108, 116);
-        outline-style: none;
-        outline-width: 0px;
-        padding-left: 15px;
-        padding-right: 15px;
-        text-align: left;
-        text-size-adjust: 100%;
-        unicode-bidi: isolate;
-        width: 324px;
-        word-break: break-word;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
-
-    .contact-form {
-        background-attachment: scroll;
-        background-clip: border-box;
-        background-color: rgba(0, 0, 0, 0);
-        background-image: none;
-        background-origin: padding-box;
-        background-position-x: 0%;
-        background-position-y: 0%;
-        background-repeat: repeat;
-        background-size: auto;
-        box-shadow: none;
-        box-sizing: border-box;
-        color: rgb(108, 108, 116);
-        display: block;
-        font-family: Figtree;
-        font-size: 17px;
-        font-weight: 400;
-        height: 1498.04px;
-        line-height: 28px;
-        outline-color: rgb(108, 108, 116);
-        outline-style: none;
-        outline-width: 0px;
-        padding-bottom: 60px;
-        padding-top: 0px;
-        text-align: start;
-        text-size-adjust: 100%;
-        unicode-bidi: isolate;
-        width: 768px;
-        word-break: break-word;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
-    
-    .contact-form-content {
-        margin-top: 3%;
-        box-shadow: none;
-        box-sizing: border-box;
-        color: rgb(108, 108, 116);
-        display: block;
-        font-family: 'Figtree';
-        font-size: 17px;
-        font-weight: 400;
-        height: 143.04px;
-        line-height: 28px;
-        margin-left: 24px;
-        margin-right: 24px;
-        max-width: 720px;
-        outline-color: rgb(108, 108, 116);
-        outline-style: none;
-        outline-width: 0px;
-        padding-left: 15px;
-        padding-right: 15px;
-        text-align: start;
-        text-size-adjust: 100%;
-        unicode-bidi: isolate;
-        width: 720px;
-        word-break: break-word;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
-
-    .contact-form-content img {
-        box-shadow:inset none;
-        box-sizing: border-box;
-        color: rgb(108, 108, 116);
-        display: inline-block;
-        font-family: Figtree;
-        font-size: 17px;
-        font-weight: 400;
-        height: 776.537px;
-        line-height: 28px;
-        outline-color: rgb(108, 108, 116);
-        outline-style: none;
-        outline-width: 0px;
-        overflow-x: hidden;
-        overflow-y: hidden;
-        position: relative;
-        text-align: center;
-        text-size-adjust: 100%;
-        vertical-align: middle;
-        width: 690px;
-        word-break: break-word;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
-
-    .contact-form-description {
-        box-shadow: none;
-        box-sizing: border-box;
-        color: rgb(108, 108, 116);
-        display: block;
-        flex-shrink: 0;
-        font-family: Figtree;
-        font-size: 17px;
-        font-weight: 400;
-        height: 611.5px;
-        line-height: 28px;
-        margin-top: 50px;
-        max-width: 100%;
-        outline-color: rgb(108, 108, 116);
-        outline-style: none;
-        outline-width: 0px;
-        padding-left: 15px;
-        padding-right: 15px;
-        text-align: start;
-        text-size-adjust: 100%;
-        unicode-bidi: isolate;
-        width: 720px;
-        word-break: break-word;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
-
-    .location-map {
-        overflow: hidden;
-        padding-bottom: 56.25%;
-        position: relative;
-        height: 0;
-    }
-
-    .location-map .map iframe {
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-    }
-
     .footer {
         background-attachment: scroll;
         background-clip: border-box;
@@ -8488,9 +8222,48 @@ header {
 
     }
 
+    .logo {   
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
+        display: block;
+        margin: 5% 18% 0 -5%;
+        font-family: Figtree;
+        font-size: 17px;
+        font-weight: 400;
+        height: 54.35px;
+        line-height: 28px;
+        text-align: center;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 110px;
+        word-break: break-word;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
     .logo img {
-        margin: 20% 0 0 30%;
-        width: 70%;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        display: block;
+        font-family: Figtree;
+        font-size: 20px;
+        font-weight: 400;
+        height: 24.35px;
+        line-height: 28px;
+        max-width: 100%;
+        opacity: 1;
+        overflow-x: clip;
+        overflow-y: clip;
+        text-align: center;
+        text-size-adjust: 100%;
+        text-wrap: nowrap;
+        visibility: visible;
+        white-space-collapse: collapse;
+        width: 110px;
+        word-break: break-word;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
     .navbar-icons {
@@ -8542,14 +8315,14 @@ header {
         background: black;
         width: auto;
         height: 65px;
-        margin-left: -15%;
-        margin-top: -8%;
+        margin-left: -25%;
+        margin-top: -10%;
     }
 
     .closemark img {
         width: 25px;
         height: 25px;
-        margin: 280% 0 0 900%;
+        margin: 300% 0 0 900%;
         position: relative;
     }
 
@@ -8574,45 +8347,51 @@ header {
         z-index: -1;
     }
 
-    .contactus {
-        max-width: 768px;
-        height: 25vh;
-        margin-top: 10%;
+    .gadgets {
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
         display: block;
+        font-family: Figtree;
+        font-size: 17px;
+        font-weight: 400;
+        height: 186px;
+        line-height: 28px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        text-align: start;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 360px;
+    }
+
+    .container-gadgets {
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
+        display: block;
+        font-family: 'Figtree';
+        font-size: 17px;
+        font-weight: 400;
+        height: 186px;
+        line-height: 28px;
+        margin-left: 0px;
+        margin-right: 0px;
+        outline-color: rgb(108, 108, 116);
+        outline-style: none;
+        outline-width: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: start;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 360px;
+        word-break: break-word;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
     
-    .contactus h1 {
-        font-size: 2rem;
-        padding-top: 40px;
-    }
-
-    .contact-section {
-        width: 10%;
-        margin-top: -30%;
-    }
-
-    .contact-content {
-        display: block;
-    }
-
-    .content-box-1 {
-        width: 330px;
-    }
-
-    .content-box-2 {
-        width: 365px;
-    }
-
-    .content-box-1 h3 {
-        font-size: 2rem;
-    }
-
-    .content-box-2 p {
-        font-size: 1.1rem;
-        margin-top: -8%;
-    }
-
-    .why-choose-us {
+    .menu-gadgets ul {
+        align-items: center;
         box-shadow: none;
         box-sizing: border-box;
         color: rgb(108, 108, 116);
@@ -8621,15 +8400,83 @@ header {
         font-family: Figtree;
         font-size: 17px;
         font-weight: 400;
-        height: 786px;
+        height: 186px;
         justify-content: flex-start;
         line-height: 28px;
-        margin-left: -15px;
-        margin-right: -15px;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        margin-bottom: 0px;
+        margin-inline-end: 0px;
+        margin-inline-start: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
         margin-top: 0px;
+        padding-bottom: 10px;
+        padding-inline-start: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+        text-align: start;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 330px;
+        word-break: break-word;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .menu-gadgets li {
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
+        display: list-item;
+        flex-basis: auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        font-family: Figtree;
+        font-size: 17px;
+        font-weight: 400;
+        height: 29px;
+        line-height: 28px;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        margin-bottom: 10px;
+        margin-right: 0px;
         outline-color: rgb(108, 108, 116);
         outline-style: none;
         outline-width: 0px;
+        padding-right: 15px;
+        text-align: left;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 165px;
+        word-break: break-word;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .banner {
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
+        display: block;
+        flex-basis: auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        font-family: Figtree;
+        font-size: 17px;
+        font-weight: 400;
+        height: 1237.5px;
+        line-height: 28px;
+        margin-top: 0px;
+        max-width: 100%;
+        outline-color: rgb(108, 108, 116);
+        outline-style: none;
+        outline-width: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
         text-align: start;
         text-size-adjust: 100%;
         unicode-bidi: isolate;
@@ -8638,31 +8485,577 @@ header {
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
-    .why-choose-us-content {
+    .bannerimg {
+        display: block;
+        margin-top: -50px;
+    }
+
+    .bannernike {
         box-shadow: none;
         box-sizing: border-box;
         color: rgb(108, 108, 116);
-        display: flex;
-        flex-wrap: wrap;
-        font-family: 'Figtree';
+        cursor: pointer;
+        display: inline-block;
+        font-family: Figtree;
         font-size: 17px;
         font-weight: 400;
-        height: 786px;
-        justify-content: flex-start;
+        height: 500px;
         line-height: 28px;
-        margin-left: -75px;
-        margin-right: -15px;
-        margin-top: 0px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        text-align: left;
+        text-size-adjust: 100%;
+        vertical-align: middle;
+        width: 360px;
+        word-break: break-word;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  
+    }
+
+
+
+    .bannernike img {
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
+        cursor: pointer;
+        display: inline-block;
+        font-family: Figtree;
+        font-size: 17px;
+        font-weight: 400;
+        height: 550px;
+        line-height: 28px;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
         outline-color: rgb(108, 108, 116);
         outline-style: none;
         outline-width: 0px;
-        text-align: start;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        text-align: left;
+        text-size-adjust: 100%;
+        vertical-align: middle;
+        width: 360px;
+        word-break: break-word;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+    }
+
+    .bannernike1 {
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
+        display: block;
+        font-family: Figtree;
+        font-size: 17px;
+        font-weight: 400;
+        height: 450px;
+        line-height: 28px;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        outline-color: rgb(108, 108, 116);
+        outline-style: none;
+        outline-width: 0px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        text-align: left;
         text-size-adjust: 100%;
         unicode-bidi: isolate;
         width: 360px;
         word-break: break-word;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
 
+    .bannernike1 img {
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
+        cursor: pointer;
+        display: inline-block;
+        font-family: Figtree;
+        font-size: 17px;
+        font-weight: 400;
+        height: 450px;
+        line-height: 28px;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        outline-color: rgb(108, 108, 116);
+        outline-style: none;
+        outline-width: 0px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        text-align: left;
+        text-size-adjust: 100%;
+        vertical-align: middle;
+        width: 360px;
+        word-break: break-word;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .nikedescription {
+        align-items: center;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
+        display: flex;
+        font-family: Figtree;
+        font-size: 17px;
+        font-weight: 400;
+        height: 450px;
+        justify-content: flex-start;
+        left: 0px;
+        line-height: 28px;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        outline-color: rgb(108, 108, 116);
+        outline-style: none;
+        outline-width: 0px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        pointer-events: none;
+        position: absolute;
+        text-align: left;
+        text-size-adjust: 100%;
+        top: 0px;
+        unicode-bidi: isolate;
+        width: 360px;
+        word-break: break-word;
+        z-index: 9;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .text-left-nike {
+        margin-left: -40%;
+        margin-top: 200%;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
+        display: block;
+        font-family: Figtree;
+        font-size: 17px;
+        font-weight: 400;
+        height: 171.2px;
+        line-height: 28px;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        outline-color: rgb(108, 108, 116);
+        outline-style: none;
+        outline-width: 0px;
+        pointer-events: none;
+        text-align: left;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 300px;
+        word-break: break-word;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+    }
+
+    .text-left-nike h1 {
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(17, 18, 40);
+        display: block;
+        font-family: Lexend;
+        font-size: 26px;
+        font-weight: 600;
+        height: 64px;
+        letter-spacing: normal;
+        line-height: 32px;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        margin-bottom: 25px;
+        outline-color: rgb(17, 18, 40);
+        outline-style: none;
+        outline-width: 0px;
+        pointer-events: none;
+        text-align: left;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 300px;
+    }
+
+    .text-left-nike h2 {
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(28, 28, 28);
+        display: block;
+        font-family: Lexend;
+        font-size: 15px;
+        font-weight: 400;
+        height: 18px;
+        line-height: 18px;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        margin-bottom: 0px;
+        pointer-events: none;
+        text-align: left;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 300px;
+        word-break: break-word;
+    }
+
+    .text-left-nike button {
+        align-items: center;
+        background-color: rgb(17, 18, 40);
+        border-bottom-color: rgb(17, 18, 40);
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border-bottom-style: solid;
+        border-bottom-width: 1.6px;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-source: none;
+        border-image-width: 1;
+        border-left-color: rgb(17, 18, 40);
+        border-left-style: solid;
+        border-left-width: 1.6px;
+        border-right-color: rgb(17, 18, 40);
+        border-right-style: solid;
+        border-right-width: 1.6px;
+        border-top-color: rgb(17, 18, 40);
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+        border-top-style: solid;
+        border-top-width: 1.6px;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        display: inline-flex;
+        font-family: 'Lexend';
+        font-size: 16px;
+        font-weight: 500;
+        height: 59.2px;
+        justify-content: center;
+        line-height: 24px;
+        margin-top: 20px;
+        padding-bottom: 16px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 16px;
+        pointer-events: auto;
+        text-align: center;
+        text-decoration-color: rgb(255, 255, 255);
+        text-decoration-line: none;
+        text-decoration-style: solid;
+        text-decoration-thickness: auto;
+        text-size-adjust: 100%;
+        user-select: none;
+        vertical-align: middle;
+        width: 182.2px;
+        word-break: break-word;
+    }
+
+    .phones {
+        margin-top: -45px;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
+        display: block;
+        font-family: 'Figtree';
+        font-size: 17px;
+        font-weight: 400;
+        height: 568.75px;
+        line-height: 28px;
+        outline-color: rgb(108, 108, 116);
+        outline-style: none;
+        outline-width: 0px;
+        text-align: left;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 360px;
+        word-break: break-word;
+
+    }
+
+    .phones img {
+        object-fit: contain;
+    }
+
+    .earbuds {
+        margin-left: 150px;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
+        display: block;
+        font-family: Figtree;
+        font-size: 17px;
+        font-weight: 400;
+        height: 149.6px;
+        line-height: 28px;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        outline-color: rgb(108, 108, 116);
+        outline-style: none;
+        outline-width: 0px;
+        pointer-events: none;
+        text-align: left;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 179.2px;
+        word-break: break-word;
+    }
+
+    .earbuds h1 {
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(17, 18, 40);
+        display: block;
+        font-family: Lexend;
+        font-size: 26px;
+        font-weight: 600;
+        height: 64px;
+        letter-spacing: normal;
+        line-height: 32px;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        margin-bottom: 20px;
+        outline-color: rgb(17, 18, 40);
+        outline-style: none;
+        outline-width: 0px;
+        pointer-events: none;
+        text-align: left;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 179.2px;
+        word-break: break-word;
+    }
+
+    .earbuds h2 {
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(28, 28, 28);
+        display: block;
+        font-family: Lexend;
+        font-size: 15px;
+        font-weight: 400;
+        height: 18px;
+        line-height: 18px;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        margin-bottom: 0px;
+        outline-color: rgb(28, 28, 28);
+        outline-style: none;
+        outline-width: 0px;
+        pointer-events: none;
+        text-align: left;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 179.2px;
+        word-break: break-word;
+    }
+
+    .earbudsbtn {
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+        border-bottom-color: rgb(17, 18, 40);
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-style: solid;
+        border-bottom-width: 0.8px;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-source: none;
+        border-image-width: 1;
+        border-left-color: rgb(17, 18, 40);
+        border-left-style: solid;
+        border-left-width: 0.8px;
+        border-right-color: rgb(17, 18, 40);
+        border-right-style: solid;
+        border-right-width: 0.8px;
+        border-top-color: rgb(17, 18, 40);
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-top-style: solid;
+        border-top-width: 0.8px;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(17, 18, 40);
+        cursor: pointer;
+        display: inline-flex;
+        font-family: Lexend;
+        font-size: 14px;
+        font-weight: 500;
+        height: 42.6px;
+        justify-content: center;
+        line-height: 21px;
+        list-style-image: none;
+        list-style-position: outside;
+        list-style-type: none;
+        margin-top: 15px;
+        outline-color: rgb(17, 18, 40);
+        outline-style: none;
+        outline-width: 0px;
+        padding-bottom: 10px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 10px;
+        pointer-events: auto;
+        text-align: center;
+        text-decoration-color: rgb(17, 18, 40);
+        text-decoration-line: none;
+        text-decoration-style: solid;
+        text-decoration-thickness: auto;
+        text-size-adjust: 100%;
+        width: 131.2px;
+        word-break: break-word;
+    }
+
+    .phones1 {
+        margin-top: -100px;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
+        display: block;
+        font-family: 'Figtree';
+        font-size: 17px;
+        font-weight: 400;
+        height: 568.75px;
+        line-height: 28px;
+        outline-color: rgb(108, 108, 116);
+        outline-style: none;
+        outline-width: 0px;
+        text-align: left;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 360px;
+        word-break: break-word;
+        background: red;
+    }
+
+    .phones1 img {
+        object-fit: contain;
+    }
+
+    .iphone {
+        margin-left: 18px;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
+        display: block;
+        font-family: Figtree;
+        font-size: 17px;
+        font-weight: 400;
+        height: 149.6px;
+        line-height: 28px;
+        pointer-events: none;
+        text-align: left;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 173.6px;
+        word-break: break-word;     
+    }
+
+    .iphone h1 {
+        margin-top: 5px;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(255, 255, 255);
+        display: block;
+        font-family: 'Lexend';
+        font-size: 26px;
+        font-weight: 600;
+        height: 64px;
+        letter-spacing: normal;
+        line-height: 32px;
+        margin-bottom: 10px;
+        pointer-events: none;
+        text-align: left;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 173.6px;
+        word-break: break-word;
+    }
+
+    .iphone h2 {
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(255, 255, 255);
+        display: block;
+        font-family: Lexend;
+        font-size: 15px;
+        font-weight: 400;
+        height: 18px;
+        line-height: 18px;
+        margin-bottom: 0px;
+        text-align: left;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 173.6px;
+        word-break: break-word;
+    }
+
+    .iphone button {
+        align-items: center;
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(17, 18, 40);
+        cursor: pointer;
+        display: inline-flex;
+        font-family: Lexend;
+        font-size: 14px;
+        font-weight: 500;
+        height: 42.6px;
+        justify-content: center;
+        line-height: 21px;
+        margin-top: 15px;
+        outline-color: rgb(17, 18, 40);
+        outline-style: none;
+        outline-width: 0px;
+        padding-bottom: 10px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 10px;
+        pointer-events: auto;
+        text-align: center;
+        text-decoration-color: rgb(17, 18, 40);
+        text-decoration-line: none;
+        text-decoration-style: solid;
+        text-decoration-thickness: auto;
+        text-size-adjust: 100%;
+        width: 132.8px;
+        word-break: break-word;
+    }
+
+    .deals {
+        box-shadow: none;
+        box-sizing: border-box;
+        color: rgb(108, 108, 116);
+        display: block;
+        font-family: Figtree;
+        font-size: 17px;
+        font-weight: 400;
+        height: 1425.6px;
+        line-height: 28px;
+        outline-color: rgb(108, 108, 116);
+        outline-style: none;
+        outline-width: 0px;
+        padding-bottom: 40px;
+        padding-top: 0px;
+        text-align: start;
+        text-size-adjust: 100%;
+        unicode-bidi: isolate;
+        width: 330px;
+        word-break: break-word;
     }
 
     .content-boxes {
