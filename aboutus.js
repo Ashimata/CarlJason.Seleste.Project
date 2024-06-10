@@ -42,60 +42,88 @@
 
 }
 
-
+{
+    window.addEventListener('scroll', function() {
+        const headerSection = document.querySelector('.header1');
+        const headerList = document.querySelector('.header1 ul');
+        const scrollHeight = window.pageYOffset;
+        const documentHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    
+        if (scrollHeight >= documentHeight - 100) {
+            headerSection.classList.add('hidden');
+            headerList.style.marginLeft = '-100px';
+        } else {
+            headerSection.classList.remove('hidden');
+            headerList.style.marginLeft = '0';
+        }
+    });
+}
 
 {
 
-// let prevScrollPos = window.pageYOffset;
-// window.addEventListener('scroll', function() {
-//     const currentScrollPos = window.pageYOffset;
-//     if (prevScrollPos > currentScrollPos) {
-//         if (currentScrollPos === 0) {
-//             document.getElementById('header1').style.top = '0';
-//         }
-//     } else {
-//         document.getElementById('header1').style.top = '-40px';
-//     }
-//     prevScrollPos = currentScrollPos;
-// });  
+let prevScrollPos = window.pageYOffset;
+window.addEventListener('scroll', function() {
+    const currentScrollPos = window.pageYOffset;
+    if (prevScrollPos > currentScrollPos) {
+        if (currentScrollPos === 0) {
+            document.getElementById('header1').style.top = '0';
+        }
+    } else {
+        document.getElementById('header1').style.top = '-40px';
+    }
+    prevScrollPos = currentScrollPos;
+});  
   
 }
 
-// let prevScrollPos = window.pageYOffset;
-// let isNavbarHidden = false;
-// let scrollTimeout;
-// const screenHeight = window.innerHeight;
 
-// window.addEventListener('scroll', function() {
-//     const currentScrollPos = window.pageYOffset;
-//     const navbar = document.getElementById('navbar1');
+let showTimeoutId;
+let isScrolling = false;
+let scrollThreshold = 1;
+let isNavbarHidden = false;
 
-//     if (currentScrollPos > prevScrollPos) {
-//         // Scrolling down
-//         if (!isNavbarHidden && currentScrollPos >= screenHeight) {
-//             navbar.style.top = '-75px';
-//             isNavbarHidden = true;
-//             clearTimeout(scrollTimeout);
-//             scrollTimeout = setTimeout(function() {
-//                 navbar.style.top = '40px';
-//                 isNavbarHidden = false;
-//             }, 600);
-//         }
-//     } else {
-//         // Scrolling up
-//         navbar.style.top = '0';
-//         isNavbarHidden = false;
-//     }
+window.addEventListener('scroll', function() {
+    const currentScrollPos = window.pageYOffset;
+    const navbar = document.getElementById('navbar1');
+    const bodyHeight = document.body.scrollHeight - document.body.clientHeight;
 
-//     // Keep the navbar visible until the end of the page
-//     if (currentScrollPos >= document.body.scrollHeight - screenHeight) {
-//         navbar.style.top = '0';
-//         isNavbarHidden = false;
-//     }
+    if (currentScrollPos > scrollThreshold) {
+       
+        if (prevScrollPos > currentScrollPos) {
+         
+            if (isNavbarHidden) {
+                navbar.style.top = '0';
+                isNavbarHidden = false;
+            }
+        } else {
+          
+            if (!isNavbarHidden) {
+                navbar.style.top = '-475px';
+                isNavbarHidden = true;
+                clearTimeout(showTimeoutId);
+                showTimeoutId = setTimeout(function() {
+                    navbar.style.top = '-40px';
+                }, 600);
+            }
+        }
+    } else {
+       
+        if (isNavbarHidden) {
+            navbar.style.top = '0';
+            isNavbarHidden = false;
+        }
+    }
 
-//     prevScrollPos = currentScrollPos;
-// });
 
+    if (currentScrollPos >= bodyHeight - 1) {
+        if (isNavbarHidden) {
+            navbar.style.top = '0';
+            isNavbarHidden = false;
+        }
+    }
+
+    prevScrollPos = currentScrollPos;
+});
 
 
 {

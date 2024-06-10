@@ -67,3 +67,17 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+let prevScrollPos = window.pageYOffset;
+window.addEventListener('scroll', function() {
+    const currentScrollPos = window.pageYOffset;
+    if (prevScrollPos > currentScrollPos) {
+        if (currentScrollPos === 0) {
+            document.getElementById('header1').style.top = '0';
+        }
+    } else {
+        document.getElementById('header1').style.top = '-40px';
+    }
+    prevScrollPos = currentScrollPos;
+});  
+
